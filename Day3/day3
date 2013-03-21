@@ -8,39 +8,38 @@ class StudentList
 #remove [interaction/method]
 #view [interaction/method]
   def initialize(cohort)
-    @cohort = cohort
-    @students = []
+  	@cohort = cohort
+  	@students = []
 
-    puts "#{cohort} student list has been created"
+  	puts "#{cohort} student list has been created"
   end
 
   def add(student)
-    @students << student
+  	@students << student
 
     #puts "#{student} has been added"
   end
 
   def remove(student)
 
-    @students.delete(student)
-    #puts "#{student} has been removed"
+  	@students.delete(student)
+  	#puts "#{student} has been removed"
   end
 
   def view_cohort_name
-    @cohort
+  	@cohort
   end
 
   def view_students
-    @students.map do |student|
-      Student.student_as_string
-    end
+  	@students.map do |student|
+  	  student.student_as_string
+  	end
   end
 
   def sorted_students
-    @students.sort { |student_first_name.view_student_first_name, student_first_name.view_student_first_name| student_first_name.view_student_first_name <=> student_first_name.view_student_first_name }
+  	@students.sort!
 
   end
-
 end
 
 #student_list.cohort = "march"     #is setting the cohort attribute of student list instance
@@ -48,44 +47,44 @@ end
 
 
 class Student
-  def initialize(student_first_name, student_last_name)
-    @student_first_name = student_first_name
-    @student_last_name = student_last_name
-    @languages = []
-    @one_rep_max = 0
-  end
+	def initialize (student_first_name, student_last_name)
+		@student_first_name = student_first_name
+		@student_last_name = student_last_name
+		@languages = []
+		@one_rep_max = 0
+	end
 
-    def add_language(language)
-      @languages << language
+    def add_language (language)
+    	@languages << language
     end
 
-    def remove_language(language)
-      @languages.delete(language)
+    def remove_language (language)
+    	@languages.delete(language)
     end
 
-    def view_languages()
-      @languages
+    def view_languages
+    	@languages
     end
 
-    def change_one_rep_max(one_rep_max)
-      @one_rep_max = one_rep_max
+    def change_one_rep_max (one_rep_max)
+    	@one_rep_max = one_rep_max
     end
 
-    def view_one_rep_max()
-      @one_rep_max
+    def view_one_rep_max
+    	@one_rep_max
     end
 
-    def view_student_first_name()
-      @student_first_name
+    def view_student_first_name
+    	@student_first_name
     end
 
-    def view_student_last_name()
-      @student_last_name
+    def view_student_last_name
+    	@student_last_name
     end
 
-    def student_as_string()
-      student_output = [@student_first_name, @student_last_name, @languages, @one_rep_max].to_s
-      student_output
+    def student_as_string
+    	student_output = [@student_first_name, @student_last_name, @languages, @one_rep_max].to_s
+    	student_output
     end
 end
 

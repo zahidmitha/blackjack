@@ -1,0 +1,693 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"parse",
+				"parse_object"
+			],
+			[
+				"person",
+				"person"
+			],
+			[
+				"FROM",
+				"FROM"
+			],
+			[
+				"WHERE",
+				"WHERE"
+			],
+			[
+				"lexicon",
+				"lexicon_asks"
+			],
+			[
+				"words",
+				"words"
+			],
+			[
+				"site",
+				"site"
+			],
+			[
+				"be",
+				"be"
+			],
+			[
+				"random",
+				"random_income"
+			],
+			[
+				"dee",
+				"deeds"
+			],
+			[
+				"me",
+				"money"
+			],
+			[
+				"cost",
+				"costs"
+			],
+			[
+				"p",
+				"p"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"death",
+				"Death"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "first_app.rb",
+			"settings":
+			{
+				"buffer_size": 554,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/zahid/Documents/Coding/Makers/projects/daythree/daythreev2.rb",
+			"settings":
+			{
+				"buffer_size": 1086,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/zahid/Desktop/Today.txt",
+			"settings":
+			{
+				"buffer_size": 2335,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/zahid/Desktop/Extras",
+			"settings":
+			{
+				"buffer_size": 1648,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/zahid/Documents/Coding/Python/projects/gothon2/templates/layout.html",
+			"settings":
+			{
+				"buffer_size": 179,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/zahid/Documents/Coding/Python/projects/gothon2/bin/app4.py",
+			"settings":
+			{
+				"buffer_size": 455,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/zahid/Documents/Coding/Python/projects/gothon2/templates/hello_form.html",
+			"settings":
+			{
+				"buffer_size": 201,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/zahid/Documents/Coding/Python/projects/gothon2/templates/index.html",
+			"settings":
+			{
+				"buffer_size": 153,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 285.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/zahid/Documents/Coding/Python/projects/gothon2/tests/app_tests.py",
+		"/home/zahid/Documents/Coding/Ruby/Rails/projects/first_app/Gemfile",
+		"/home/zahid/Documents/Coding/Makers/projects/ruby_practice/ruby_practice.rb",
+		"/home/zahid/Documents/Coding/Makers/projects/ruby_practice/ruby_notes.txt",
+		"/home/zahid/Documents/Coding/Makers/projects/Day3/encapsulation.rb",
+		"/home/zahid/Documents/Coding/Makers/projects/Day3/day3",
+		"/home/zahid/Documents/Coding/Python/projects/new_monopoly/new_monopoly/new_monopoly.py",
+		"/home/zahid/.ssh/known_hosts",
+		"/home/zahid/Documents/Coding/Python/projects/gothonweb/bin/app.py",
+		"/home/zahid/Documents/Coding/Python/projects/gothonweb/bin/app4.py",
+		"/home/zahid/Documents/Coding/Python/projects/gothonweb/templates/hello_form.html",
+		"/home/zahid/Documents/Coding/Python/projects/gothonweb/templates/index.html",
+		"/home/zahid/Documents/Coding/Python/projects/gothonweb/templates/notes.html",
+		"/home/zahid/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/zahid/Documents/Coding/PHP/projects/Banker_game/game2.php",
+		"/home/zahid/.cache/.fr-tQrqPh/xchat-2.8.8/INSTALL",
+		"/home/zahid/Documents/Coding/Makers/projects/first_app/app/first_app.sublime-project",
+		"/home/zahid/Documents/Coding/Makers/projects/first_app/app/first_app.sublime-workspace",
+		"/home/zahid/Desktop/The Plan",
+		"/home/zahid/Desktop/Ruby.sublime-build",
+		"/home/zahid/.gemrc",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1990/blogs/toystory/products.html",
+		"/home/zahid/Documents/Coding/sqlite3/ex8excred1.sql",
+		"/home/zahid/Documents/Coding/Python/projects/webpy/webpy/code.py",
+		"/home/zahid/Documents/Coding/Python/projects/webpy/webpy/webpy.sql",
+		"/home/zahid/Documents/Coding/projects/webpy/templates/index.html",
+		"/home/zahid/Documents/Coding/projects/webpy/webpy/code.py",
+		"/home/zahid/Documents/Coding/projects/gothonweb/bin/app2.py",
+		"/home/zahid/Documents/Coding/projects/webpy/webpy/webpy.sql",
+		"/home/zahid/Documents/Coding/projects/gothonweb/bin/app.py",
+		"/home/zahid/Documents/Coding/projects/new_monopoly/new_monopoly/new_monopoly.py",
+		"/home/zahid/Documents/Coding/Python/ex39.py",
+		"/home/zahid/Documents/Coding/Python/ex48v2.pyc",
+		"/home/zahid/Documents/Coding/projects/gothonweb/templates/index.html",
+		"/home/zahid/Desktop/Today.txt",
+		"/home/zahid/Documents/Coding/sqlite3/ex4.sql",
+		"/home/zahid/Documents/Coding/sqlite3/ex3.sql",
+		"/home/zahid/Documents/Coding/sqlite3/ex5.sql",
+		"/home/zahid/Documents/Coding/projects/gothonweb/templates/foo.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1990/blogs/yoyo/products.html",
+		"/home/zahid/Documents/Coding/PHP/ex36test.php",
+		"/home/zahid/Documents/Coding/sqlite3/ex7.sql",
+		"/home/zahid/Documents/Coding/sqlite3/ex8.sql",
+		"/home/zahid/Documents/Coding/projects/ex48/ex48/ex48v2.py",
+		"/home/zahid/Documents/Coding/projects/ex48/ex48/parser.py",
+		"/home/zahid/Documents/Coding/projects/ex48/tests/parser_tests.py",
+		"/home/zahid/Documents/Coding/projects/ex48/ex48/ex48v2.pyc",
+		"/home/zahid/Documents/Coding/projects/ex48/tests/tests.py",
+		"/home/zahid/Documents/Coding/projects/ex48/ex48/test.py",
+		"/home/zahid/Documents/Coding/sqlite3/ex2to7.sql",
+		"/home/zahid/Documents/Coding/projects/ex48/tests/tests.pyc",
+		"/home/zahid/Documents/Coding/sqlite3/ex6.sql",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1990/blogs/freshprince/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/michaeljackson/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/wetwetwet/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1990/blogs/titanic/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/45s/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/backtothefuture/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/ateam/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/alf/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/breakfastclub/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/candylipstick/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/cabbagepatch/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/carebears/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/cootiecutter/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/donkeykong/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/crystalpepsi/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/et/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/etchasketch/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/ewoks/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/gameboy/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/galaxyrangers/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/glowworm/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/gremlins/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/hansolo/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/indianajones/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/kerplunk/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/knightrider/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/kooshball/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/lavalamp/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/lego/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/mariobros/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/masteroftheuniverse/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/mickeymouseclub/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/micromachines/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/monopoly/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/mylittlepony/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/nintendo/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/pacman/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/paddingtonbear/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/rubikscube/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/scalextric/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/smurfs/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/stretcharmstrong/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/spaceinvaders/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/starwars/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/superted/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/teddyruxpin/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/toptrumps/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/transformers/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/totp/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/walkman/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/kooshball/p1.jpg",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/index.html",
+		"/home/zahid/Desktop/test.html",
+		"/home/zahid/Documents/CTOnetwork/Product/rails-site/app/assets/stylesheets/styles.css.scss",
+		"/home/zahid/Documents/Coding/Python/ex35.py",
+		"/home/zahid/Documents/Coding/sqlite3/ex2.sql",
+		"/home/zahid/Documents/Coding/Banker_game/game.php",
+		"/home/zahid/Documents/Coding/Banker_game/index.php",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/galaxyrankers/products.html",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/1990.html",
+		"/home/zahid/Documents/Coding/sqlite3/delete_replicas.sql",
+		"/home/zahid/Dropbox/I wish I was a kid again/Product/contact.html",
+		"/home/zahid/Documents/Coding/sqlite3/ex2cars.sql",
+		"/home/zahid/Documents/Coding/sqlite3/ex1.sql",
+		"/home/zahid/Documents/Coding/projects/new_monopoly/tests/new_monopoly_tests.py",
+		"/home/zahid/Documents/Coding/projects/ex48/setup.py",
+		"/home/zahid/Documents/Coding/projects/ex47/tests/ex47_tests.py",
+		"/home/zahid/Documents/Coding/projects/ex47/ex47/game.py",
+		"/home/zahid/Documents/Coding/Python/ex48.py",
+		"/home/zahid/Documents/Coding/Python/ex48.2.py",
+		"/home/zahid/Documents/CTOnetwork/Product/rails-site/app/assets/javascripts/simple.js",
+		"/home/zahid/Documents/Coding/Python/ex36.py",
+		"/home/zahid/Documents/Coding/Python/ex47test.py",
+		"/home/zahid/Documents/Coding/projects/ex47/tests/ex47_tests.pyc",
+		"/home/zahid/Documents/Coding/projects/ex47/setup.py"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"with",
+			"zahid",
+			"greeting",
+			">",
+			"raw",
+			"topof",
+			"oTQQ6SfPZggw",
+			"tm",
+			"t",
+			"tmnt",
+			"view",
+			"galaxy",
+			"watch",
+			"supermar",
+			"superma",
+			");",
+			"topofthe",
+			"mario",
+			"asdaf",
+			"verb",
+			"pepsi",
+			"solo",
+			"han",
+			"tain",
+			"22",
+			"input",
+			"invite",
+			"try again",
+			"Home",
+			"products",
+			"game boy",
+			"gameboy",
+			"applied_project",
+			"job_applicant",
+			"new_job_form",
+			"text-align",
+			"\">\n",
+			"class",
+			"browse",
+			"%>\n",
+			"img",
+			"@profile",
+			"answer",
+			"ilter",
+			"button",
+			")",
+			"start_scene",
+			"= play()",
+			"scene_name",
+			"start_scene",
+			"opening",
+			"current",
+			"jobs",
+			"nav",
+			"filter-button",
+			"call",
+			"callto",
+			"navbar",
+			"hero",
+			"not",
+			"hero",
+			"second-action",
+			"page",
+			"page-header",
+			"call",
+			"title",
+			"container"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"profile"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "first_app.rb",
+					"settings":
+					{
+						"buffer_size": 554,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/zahid/Documents/Coding/Makers/projects/daythree/daythreev2.rb",
+					"settings":
+					{
+						"buffer_size": 1086,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								46
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "/home/zahid/Desktop/Today.txt",
+					"settings":
+					{
+						"buffer_size": 2335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								123,
+								123
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/zahid/Desktop/Extras",
+					"settings":
+					{
+						"buffer_size": 1648,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/zahid/Documents/Coding/Python/projects/gothon2/templates/layout.html",
+					"settings":
+					{
+						"buffer_size": 179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/zahid/Documents/Coding/Python/projects/gothon2/bin/app4.py",
+					"settings":
+					{
+						"buffer_size": 455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								231
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/zahid/Documents/Coding/Python/projects/gothon2/templates/hello_form.html",
+					"settings":
+					{
+						"buffer_size": 201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								138,
+								138
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/zahid/Documents/Coding/Python/projects/gothon2/templates/index.html",
+					"settings":
+					{
+						"buffer_size": 153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 75.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"fir",
+				"/home/zahid/Documents/Coding/Makers/projects/first_app/app/first_app.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
