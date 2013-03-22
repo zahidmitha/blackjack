@@ -68,34 +68,42 @@
 	"buffers":
 	[
 		{
-			"file": "first_app.rb",
-			"settings":
-			{
-				"buffer_size": 554,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "/home/zahid/Documents/Coding/Makers/projects/daythree/daythreev2.rb",
 			"settings":
 			{
-				"buffer_size": 1086,
+				"buffer_size": 1414,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/zahid/Desktop/Today.txt",
+			"file": "/home/zahid/Documents/Coding/Makers/projects/monopoly/monopoly.rb",
 			"settings":
 			{
-				"buffer_size": 2335,
+				"buffer_size": 75,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/zahid/Desktop/Extras",
+			"file": "/home/zahid/Documents/Coding/Makers/projects/monopoly/player.rb",
 			"settings":
 			{
-				"buffer_size": 1648,
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/zahid/Documents/Coding/Makers/projects/monopoly/land.rb",
+			"settings":
+			{
+				"buffer_size": 214,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/zahid/Documents/Coding/Makers/projects/monopoly/tile.rb",
+			"settings":
+			{
+				"buffer_size": 91,
 				"line_ending": "Unix"
 			}
 		},
@@ -135,7 +143,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 285.0,
+		"height": 16.0,
 		"selected_items":
 		[
 			[
@@ -147,7 +155,7 @@
 				"Package Control: Add Repository"
 			]
 		],
-		"width": 575.0
+		"width": 494.0
 	},
 	"console":
 	{
@@ -164,13 +172,17 @@
 	},
 	"file_history":
 	[
+		"/home/zahid/Desktop/Extras",
+		"/home/zahid/Desktop/Today.txt",
+		"/home/zahid/Documents/Coding/Makers/projects/first_app/app/first_app.rb",
+		"/home/zahid/Documents/Coding/Python/projects/new_monopoly/new_monopoly/new_monopoly.py",
+		"/home/zahid/Documents/Coding/Makers/projects/day4/day4",
 		"/home/zahid/Documents/Coding/Python/projects/gothon2/tests/app_tests.py",
 		"/home/zahid/Documents/Coding/Ruby/Rails/projects/first_app/Gemfile",
 		"/home/zahid/Documents/Coding/Makers/projects/ruby_practice/ruby_practice.rb",
 		"/home/zahid/Documents/Coding/Makers/projects/ruby_practice/ruby_notes.txt",
 		"/home/zahid/Documents/Coding/Makers/projects/Day3/encapsulation.rb",
 		"/home/zahid/Documents/Coding/Makers/projects/Day3/day3",
-		"/home/zahid/Documents/Coding/Python/projects/new_monopoly/new_monopoly/new_monopoly.py",
 		"/home/zahid/.ssh/known_hosts",
 		"/home/zahid/Documents/Coding/Python/projects/gothonweb/bin/app.py",
 		"/home/zahid/Documents/Coding/Python/projects/gothonweb/bin/app4.py",
@@ -198,7 +210,6 @@
 		"/home/zahid/Documents/Coding/Python/ex39.py",
 		"/home/zahid/Documents/Coding/Python/ex48v2.pyc",
 		"/home/zahid/Documents/Coding/projects/gothonweb/templates/index.html",
-		"/home/zahid/Desktop/Today.txt",
 		"/home/zahid/Documents/Coding/sqlite3/ex4.sql",
 		"/home/zahid/Documents/Coding/sqlite3/ex3.sql",
 		"/home/zahid/Documents/Coding/sqlite3/ex5.sql",
@@ -288,10 +299,7 @@
 		"/home/zahid/Documents/Coding/Python/ex48.py",
 		"/home/zahid/Documents/Coding/Python/ex48.2.py",
 		"/home/zahid/Documents/CTOnetwork/Product/rails-site/app/assets/javascripts/simple.js",
-		"/home/zahid/Documents/Coding/Python/ex36.py",
-		"/home/zahid/Documents/Coding/Python/ex47test.py",
-		"/home/zahid/Documents/Coding/projects/ex47/tests/ex47_tests.pyc",
-		"/home/zahid/Documents/Coding/projects/ex47/setup.py"
+		"/home/zahid/Documents/Coding/Python/ex36.py"
 	],
 	"find":
 	{
@@ -309,6 +317,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"view_name",
 			"with",
 			"zahid",
 			"greeting",
@@ -394,23 +403,51 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "first_app.rb",
+					"file": "/home/zahid/Documents/Coding/Makers/projects/daythree/daythreev2.rb",
 					"settings":
 					{
-						"buffer_size": 554,
+						"buffer_size": 1414,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								111,
-								111
+								1060,
+								1060
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1273.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/zahid/Documents/Coding/Makers/projects/monopoly/monopoly.rb",
+					"settings":
+					{
+						"buffer_size": 75,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
 							]
 						],
 						"settings":
@@ -424,71 +461,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/home/zahid/Documents/Coding/Makers/projects/daythree/daythreev2.rb",
-					"settings":
-					{
-						"buffer_size": 1086,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								46,
-								46
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 2,
-			"sheets":
-			[
-				{
 					"buffer": 2,
-					"file": "/home/zahid/Desktop/Today.txt",
+					"file": "/home/zahid/Documents/Coding/Makers/projects/monopoly/player.rb",
 					"settings":
 					{
-						"buffer_size": 2335,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								123,
-								123
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/home/zahid/Desktop/Extras",
-					"settings":
-					{
-						"buffer_size": 1648,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -501,8 +478,33 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/zahid/Documents/Coding/Makers/projects/monopoly/land.rb",
+					"settings":
+					{
+						"buffer_size": 214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								210,
+								210
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -512,6 +514,38 @@
 				},
 				{
 					"buffer": 4,
+					"file": "/home/zahid/Documents/Coding/Makers/projects/monopoly/tile.rb",
+					"settings":
+					{
+						"buffer_size": 91,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								66,
+								66
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
 					"file": "/home/zahid/Documents/Coding/Python/projects/gothon2/templates/layout.html",
 					"settings":
 					{
@@ -522,8 +556,8 @@
 						"selection":
 						[
 							[
-								118,
-								118
+								152,
+								152
 							]
 						],
 						"settings":
@@ -537,7 +571,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "/home/zahid/Documents/Coding/Python/projects/gothon2/bin/app4.py",
 					"settings":
 					{
@@ -563,7 +597,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "/home/zahid/Documents/Coding/Python/projects/gothon2/templates/hello_form.html",
 					"settings":
 					{
@@ -589,7 +623,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "/home/zahid/Documents/Coding/Python/projects/gothon2/templates/index.html",
 					"settings":
 					{
@@ -645,7 +679,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.575246697738,
 			1.0
 		],
 		"rows":
@@ -657,7 +691,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 75.0
+		"height": 30.0
 	},
 	"replace":
 	{
