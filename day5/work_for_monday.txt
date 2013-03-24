@@ -1,0 +1,14 @@
+Work for Monday
+
+-Test Driven development using Minitest/guard
+
+-Getting and setting atrributes (attr_reader, attr_writer, attr_accessor)
+
+-Public and private methods
+-Gems (e.g. guard) + Bundles
+
+-Blackjack/21 card game or Snap/Higher Lower
+
+1) OO Design
+2) Build out classes
+3) Write out controller to make the game work
