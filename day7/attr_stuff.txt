@@ -1,0 +1,11 @@
+class xxx
+
+attr_reader :symbol Getter method
+attr_writer :symbol Setter method
+attr_accessor :symbol
+
+end
+
+.balance = 200
+
+Is the same as balance(200)
