@@ -68,60 +68,50 @@
 	"buffers":
 	[
 		{
-			"file": "/home/zahid/Documents/Coding/Makers/projects/monopoly/player.rb",
+			"file": "/home/zahid/Documents/Coding/Makers/projects/minitest/test/property_test.rb",
 			"settings":
 			{
-				"buffer_size": 578,
+				"buffer_size": 497,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/zahid/Documents/Coding/Makers/projects/monopoly/monopoly.rb",
+			"file": "/home/zahid/Documents/Coding/Makers/projects/minitest/test/# Running tests",
 			"settings":
 			{
-				"buffer_size": 121,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/zahid/Documents/Coding/Makers/projects/monopoly/property.rb",
+			"file": "/home/zahid/Documents/Coding/Makers/projects/minitest/lib/property.rb",
 			"settings":
 			{
-				"buffer_size": 74,
+				"buffer_size": 136,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/zahid/Documents/Coding/Makers/projects/monopoly/land.rb",
+			"file": "/home/zahid/Documents/Coding/Makers/projects/minitest/test/tile_test.rb",
 			"settings":
 			{
-				"buffer_size": 359,
+				"buffer_size": 368,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/zahid/Documents/Coding/Makers/projects/monopoly/tile.rb",
 			"settings":
 			{
-				"buffer_size": 231,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/zahid/Documents/Coding/Makers/projects/monopoly/engine.rb",
+			"file": "/home/zahid/Documents/Coding/Makers/projects/minitest/lib/tile.rb",
 			"settings":
 			{
-				"buffer_size": 1665,
+				"buffer_size": 160,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/zahid/Documents/Coding/Makers/projects/day5/work_for_monday.txt",
-			"settings":
-			{
-				"buffer_size": 334,
-				"line_ending": "Unix",
-				"name": "-Test Driven development"
 			}
 		},
 		{
@@ -160,9 +150,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 16.0,
+		"height": 117.0,
 		"selected_items":
 		[
+			[
+				"guard",
+				"Guard: Start Guard"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"Package Control: ",
 				"Package Control: Install Package"
@@ -172,7 +170,7 @@
 				"Package Control: Add Repository"
 			]
 		],
-		"width": 494.0
+		"width": 530.0
 	},
 	"console":
 	{
@@ -189,7 +187,20 @@
 	},
 	"file_history":
 	[
+		"/home/zahid/Documents/Coding/Makers/projects/blackjack/engine.rb",
+		"/home/zahid/Documents/Coding/Makers/projects/day6/test_example.rb",
+		"/home/zahid/Documents/Coding/Makers/projects/day6/tdd_example.rb",
+		"/home/zahid/Documents/Coding/Makers/projects/blackjack/rules.rb",
+		"/home/zahid/Documents/Coding/Makers/projects/blackjack/opponent.rb",
+		"/home/zahid/Documents/Coding/Makers/projects/blackjack/player.rb",
+		"/home/zahid/Documents/Coding/Makers/projects/day6/day6_unit_tests.txt",
+		"/home/zahid/Documents/Coding/Makers/projects/day5/work_for_monday.txt",
+		"/home/zahid/Documents/Coding/Makers/projects/monopoly/player.rb",
+		"/home/zahid/Documents/Coding/Makers/projects/monopoly/monopoly.rb",
+		"/home/zahid/Documents/Coding/Makers/projects/monopoly/property.rb",
 		"/home/zahid/Documents/Coding/Makers/projects/monopoly/land.rb",
+		"/home/zahid/Documents/Coding/Makers/projects/monopoly/tile.rb",
+		"/home/zahid/Documents/Coding/Makers/projects/monopoly/engine.rb",
 		"/home/zahid/Documents/Coding/Python/projects/ex48/tests/tests.py",
 		"/home/zahid/Documents/Coding/Makers/projects/daythree/daythreev2.rb",
 		"/home/zahid/Desktop/Extras",
@@ -303,20 +314,7 @@
 		"/home/zahid/Desktop/test.html",
 		"/home/zahid/Documents/CTOnetwork/Product/rails-site/app/assets/stylesheets/styles.css.scss",
 		"/home/zahid/Documents/Coding/Python/ex35.py",
-		"/home/zahid/Documents/Coding/sqlite3/ex2.sql",
-		"/home/zahid/Documents/Coding/Banker_game/game.php",
-		"/home/zahid/Documents/Coding/Banker_game/index.php",
-		"/home/zahid/Dropbox/I wish I was a kid again/Product/1980/blogs/galaxyrankers/products.html",
-		"/home/zahid/Dropbox/I wish I was a kid again/Product/1990.html",
-		"/home/zahid/Documents/Coding/sqlite3/delete_replicas.sql",
-		"/home/zahid/Dropbox/I wish I was a kid again/Product/contact.html",
-		"/home/zahid/Documents/Coding/sqlite3/ex2cars.sql",
-		"/home/zahid/Documents/Coding/sqlite3/ex1.sql",
-		"/home/zahid/Documents/Coding/projects/new_monopoly/tests/new_monopoly_tests.py",
-		"/home/zahid/Documents/Coding/projects/ex48/setup.py",
-		"/home/zahid/Documents/Coding/projects/ex47/tests/ex47_tests.py",
-		"/home/zahid/Documents/Coding/projects/ex47/ex47/game.py",
-		"/home/zahid/Documents/Coding/Python/ex48.py"
+		"/home/zahid/Documents/Coding/sqlite3/ex2.sql"
 	],
 	"find":
 	{
@@ -424,170 +422,23 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/zahid/Documents/Coding/Makers/projects/monopoly/player.rb",
+					"file": "/home/zahid/Documents/Coding/Makers/projects/minitest/test/property_test.rb",
 					"settings":
 					{
-						"buffer_size": 578,
+						"buffer_size": 497,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								574,
-								574
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/zahid/Documents/Coding/Makers/projects/monopoly/monopoly.rb",
-					"settings":
-					{
-						"buffer_size": 121,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bh_regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close"
-							],
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/zahid/Documents/Coding/Makers/projects/monopoly/property.rb",
-					"settings":
-					{
-						"buffer_size": 74,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								17,
-								17
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/home/zahid/Documents/Coding/Makers/projects/monopoly/land.rb",
-					"settings":
-					{
-						"buffer_size": 359,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								25,
-								25
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/home/zahid/Documents/Coding/Makers/projects/monopoly/tile.rb",
-					"settings":
-					{
-						"buffer_size": 231,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								119,
-								119
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/home/zahid/Documents/Coding/Makers/projects/monopoly/engine.rb",
-					"settings":
-					{
-						"buffer_size": 1665,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								174,
-								174
+								497,
+								497
 							]
 						],
 						"settings":
@@ -636,8 +487,7 @@
 								"bh_single_quote_close"
 							],
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -646,25 +496,342 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "/home/zahid/Documents/Coding/Makers/projects/day5/work_for_monday.txt",
+					"buffer": 1,
+					"file": "/home/zahid/Documents/Coding/Makers/projects/minitest/test/# Running tests",
 					"settings":
 					{
-						"buffer_size": 334,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								178,
-								178
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_name": "-Test Driven development",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
 							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/zahid/Documents/Coding/Makers/projects/minitest/lib/property.rb",
+					"settings":
+					{
+						"buffer_size": 136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								136
+							]
+						],
+						"settings":
+						{
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/zahid/Documents/Coding/Makers/projects/minitest/test/tile_test.rb",
+					"settings":
+					{
+						"buffer_size": 368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								368,
+								368
+							]
+						],
+						"settings":
+						{
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/zahid/Documents/Coding/Makers/projects/minitest/lib/tile.rb",
+					"settings":
+					{
+						"buffer_size": 160,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								65
+							]
+						],
+						"settings":
+						{
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -679,7 +846,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "/home/zahid/Documents/Coding/Python/projects/gothon2/templates/layout.html",
 					"settings":
 					{
@@ -742,13 +909,13 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 54.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "/home/zahid/Documents/Coding/Python/projects/gothon2/bin/app4.py",
 					"settings":
 					{
@@ -774,7 +941,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 8,
 					"file": "/home/zahid/Documents/Coding/Python/projects/gothon2/templates/hello_form.html",
 					"settings":
 					{
@@ -800,7 +967,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 9,
 					"file": "/home/zahid/Documents/Coding/Python/projects/gothon2/templates/index.html",
 					"settings":
 					{
@@ -868,7 +1035,11 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 147.0
+		"height": 166.0
+	},
+	"output.guard":
+	{
+		"height": 0.0
 	},
 	"replace":
 	{
@@ -896,7 +1067,7 @@
 		"width": 0.0
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 150.0,

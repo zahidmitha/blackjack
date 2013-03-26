@@ -1,0 +1,99 @@
+Unit tests/TDD
+
+Why do unit tests?
+
+-Quicker to make changes to codebase
+-Managing complexity
+-Find bugs
+-View interactions between pieces of code
+-Write the test once
+-Write better code
+-Increase productivity
+-Self-documenting
+
+Types of tests:
+
+1) Unit tests
+Test a single unit of code-where an object is a unit, and you test its methods.
+2) Functional tests
+Test interactions between the objects. Tests contextual usage of an object, i.e. where an object sits within the class structrue when you change something
+3) Integrated test
+Run a test of the whole product, testing the differences when you make changes.
+
+2 Frameworks for Ruby
+1) Minitests
+2) Rspec (more human readable than Minitests). These are DSLs (domain specific languages)
+
+Example:
+
+Array Test-with sort method in Array class
+
+Sort: orders an array by comparing one object against another
+
+test_sort_array
+[2, 6, 10, 8, 9].sort
+
+assert [2,6,8,9,10], sorted_array
+
+
+TEST ONE THING AT A TIME
+
+so, if we wanted to pass a block to sort, we'd do:
+
+test_sort_with_block
+
+sorted = ["aa", "b", "f"].sort { |x,y| x.length <=> y.length}
+
+Stuff we did:
+-Testing
+-Bundler/how to access and change Gemfile/purpose of Gemfile
+-Guard and TDD-'bundle exec guard init'-this ensures that we run the right version of guard for all our files (the one specified in Gemfile.lock)
+
+Using Guard
+-Guard can be set within the Gemfile
+-Guard can be set to autotest all our files whenever they're saved.
+-First run 'bundle exec guard init'
+-Thereafter run 'bundle exec guard'
+
+Monopoly example
+
+in lib:
+	class Property
+		def initialize
+			@available == true
+		end
+
+		def available?
+			@available
+		end
+
+		def bought
+			@available = false
+		end
+	end
+
+
+in tests:
+
+require './lib/property'
+require 'mintest/autorun'
+class PropertyTest < MiniTest::Unit::TestCase
+
+	def setup
+		@property = Property.new
+	end
+
+
+	def test_available_when_initialize
+		assert(@property.available?)
+	end
+
+	def test_unavailable_when_bought
+		@property.bought
+		refute property.available?
+	end
+
+	# This will fail unless property.available's value is boolean true-assert is testing whether a value is true
+end
+
+
