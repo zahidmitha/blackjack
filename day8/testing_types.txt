@@ -1,0 +1,8 @@
+1) Unit testing
+2) functional testing (tests a grouping of functions-i.e. the INTERACTION of function. If a turn involves a die, movement, a player moving and buying, then we'll test a "turn" with functional)
+3) Integration testing (AI auto chooses choices wheen playing the game)
+4) Acceptance testing (QA)
+
+mocha:
+-Allows us to fix values for testing (i.e. dice roll is 1-6-mocha fixes it at 2)
+.any_instance is a mocha inbuilt
