@@ -15,24 +15,40 @@ class Deck
 
   end
 
-  def shuffle
-    @cards.shuffle
+  def shuffle!
+    @cards.shuffle!
+  end
+
+  def reset
+    self.initialize
+  end
+
+  def cards
+    @cards
+  end
+
+  def print_cards
+    @cards.each {|card| puts "#{card.name} #{card.value} #{card.suit}"}
   end
 
 end
 
 class Dealer
 
+  def initialize(deck)
+    @deck = deck
+  end
+
+    def deal
+    @deck.cards.pop(2)
+    end
+
    def dispense_card
-      @cards.pop
+      @deck.pop
    end
 
   def flourish
-    puts @cards
-  end
-
-  def deal
-    @cards.pop(2)
+    puts @deck
   end
 
 
@@ -46,25 +62,22 @@ class Card
     @suit = suit
   end
 
-  def name
-    @name
-  end
-
   def value
     @value
   end
 
-  def suit
-    @suit
-  end
-
-  def to_s
-    "#{@name} of #{@suit}"
+def pretty_name
+  "#{@name} of #{@suit} (value #{@value})"
   end
 
 end
 
 class Rules
+
+  def deal_players
+
+
+  end
 
   def bust
 
@@ -74,62 +87,40 @@ end
 
 class Player
 
-  def initialize
-  # Help!
-  $player_cards = []
-  end
-
-
-
-  def pick(card)
-
-
-
-    @total = 0
-
-    @total += card
-
-    puts "You picked #{card}"
-    puts "Your total is #{@total}"
-
-  $player_cards << card
+  def initialize(name, dealer)
+    @hand = []
+    @name = name
+    @dealer = dealer
 
   end
 
+  def get_first_hand
+    @hand = @dealer.deal
+
+  end
+
+  def print_hand
+    card_pretty_names = []
+    card_total = 0
+    @hand.each do |card|
+      card_pretty_names << card.pretty_name
+      card_total += card.value
+    end
+    puts "#{@name}: My hand is the #{card_pretty_names.join(" and the ")}"
+    puts "My total is #{card_total}"
+
+  end
 
 end
 
 class Opponent
-
-  def view_cards
-    # Why do smaller scope variables not work here?
-    $cards.sample(2)
-
-  end
-
-
-  # Help!
-  $opponent_cards = []
-
-  def pick(card)
-
-    @total = 0
-
-    @total += card
-
-    puts "Your opponent picked two cards."
-
-  end
-
-  def add_deck
-
-  $opponent_cards << card
-
-  end
 end
-
 
 deck = Deck.new
 deck.shuffle!
-puts deck.dispense_card
+dealer= Dealer.new(deck)
+# card = Card.new
+zahid = Player.new("Zahid", dealer)
+zahid.get_first_hand
 
+zahid.print_hand
