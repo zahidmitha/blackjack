@@ -1,0 +1,42 @@
+puts "hello"
+puts errortime
+puts "this won't be printed"
+
+
+# if variable_not_defined?
+# 	raise "something's gone wrong"
+#end
+
+puts "hello"
+raise "this program is doing something wrong"
+puts "this won't be printed"
+
+##raise will print out that message, and the interpreter won't continue
+
+class Player
+	attr_reader : position
+
+	def position=(value)
+		raise "Negative number not allowed" if value < 0
+			@pposition = value
+	end
+end
+
+player = Player.new
+player.position = 3
+#player.position = -3
+
+puts player.position
+
+#SAME AS A GUARD CLAUSE i.e. return false if value < 0. BUT guard clauses rely on the user finding something that's returned. Exceptions don't need this...but they effectively cause the program to crash.
+
+
+begin
+	player,pay_rent(200)
+return Exception => exception
+	if environment = "production"
+		puts "oops sorry it went wrongerer"
+	end
+end
+
+puts "This works because we handle the exception gracefully...begin and rescue let us do this"
