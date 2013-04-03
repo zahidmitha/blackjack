@@ -44,7 +44,8 @@ class Dealer
     end
 
    def dispense_card
-      @deck.pop
+      card = @deck.cards.pop
+      card
    end
 
   def flourish
@@ -72,55 +73,149 @@ def pretty_name
 
 end
 
-class Rules
-
-  def deal_players
-
-
-  end
-
-  def bust
-
-  end
-
-end
-
 class Player
 
-  def initialize(name, dealer)
+  attr_reader :card_total, :name
+
+  def initialize(dealer)
     @hand = []
-    @name = name
+    @name
     @dealer = dealer
+    @card_total = 0
 
   end
 
   def get_first_hand
     @hand = @dealer.deal
+    print_hand
+  end
 
+  def get_next_card
+    @hand << @dealer.dispense_card
+    print_hand
+  end
+
+  def get_name
+    puts "What is your name?"
+    name = gets.chomp
+    @name = name
+    @name
   end
 
   def print_hand
     card_pretty_names = []
-    card_total = 0
     @hand.each do |card|
       card_pretty_names << card.pretty_name
-      card_total += card.value
+      @card_total += card.value
     end
     puts "#{@name}: My hand is the #{card_pretty_names.join(" and the ")}"
-    puts "My total is #{card_total}"
+    puts "My total is #{@card_total}"
+  end
 
+  def pick_card
+    puts "Hit or stick?"
+    answer = gets.chomp
+    if answer == "hit"
+      get_next_card
+      pick_card
+    elsif answer == "stick"
+      print_hand
+    else
+      puts "I didn't understand that"
+    end
   end
 
 end
 
 class Opponent
+  attr_reader :card_total, :name
+
+  def initialize(dealer)
+    @hand = []
+    @name
+    @dealer = dealer
+    @card_total = 0
+
+  end
+
+  def get_first_hand
+    @hand = @dealer.deal
+  end
+
+  def get_next_card
+    @hand << @dealer.dispense_card
+  end
+
+  def get_name
+    puts "What is your opponent's name?"
+    name = gets.chomp
+    @name = name
+    @name
+  end
+
+  def print_hand
+    card_pretty_names = []
+    @hand.each do |card|
+      card_pretty_names << card.pretty_name
+      @card_total += card.value
+    end
+    puts "#{@name}: My hand is the #{card_pretty_names.join(" and the ")}"
+    puts "My total is #{@card_total}. I'm sticking...bitch."
+  end
+
+  def artificial_intelligence
+    if @card_total >= 15
+      @card_total
+      print_hand
+    elsif @card_total < 15
+      get_next_card
+    end
+  end
+
 end
 
+class Rules
+
+  def initialize(player,deck,dealer,opponent)
+    @player = player
+    @deck = deck
+    @dealer = dealer
+    @opponent = opponent
+  end
+
+  def bust
+    if @player.card_total > 21
+      puts "BUST"
+      exit
+    else @player.card_total < 21
+      @player.pick_card
+    end
+  end
+
+  def winner
+    if @player.card_total >= @opponent.card_total
+      puts "#{@player.name} wins!"
+      exit
+    elsif @opponent.card_total > @player.card_total
+      puts "#{@opponent.name}"
+    end
+  end
+
+end
+
+
+# card = Card.new
 deck = Deck.new
 deck.shuffle!
 dealer= Dealer.new(deck)
-# card = Card.new
-zahid = Player.new("Zahid", dealer)
-zahid.get_first_hand
-
-zahid.print_hand
+player = Player.new(dealer)
+opponent = Opponent.new(dealer)
+player.get_name
+opponent.get_name
+player.get_first_hand
+player.pick_card
+opponent.get_first_hand
+opponent.artificial_intelligence
+rules = Rules.new(player, deck, dealer, opponent)
+rules.bust
+rules.winner
