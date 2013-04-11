@@ -1,0 +1,43 @@
+CRUD (create, read, update, delete)
+
+GET (create)
+POST (post)
+PUT (update)
+DELETE (delete)
+
+With a form we do:
+
+
+ACTIOn="/maps" METHOD="POST"
+
+or
+
+ACTIOn="/maps" METHOD="GET"
+
+<a href="/zahid"> acceses something using relative to the entire file system
+
+<a href="zahid"> accesses something relative to the current folder
+
+PATCH requests are to update but they're not supported
+
+So we fake it:
+
+<input type="hidden" name="_method" value="PUT/PATCH/DELETE">
+
+Each request and response is independent or one another
+This is a problem because if you need continual access to something, you need the site to maintain the state
+
+i.e.
+
+1) Login
+2) Activate action
+
+2 depends on 1.
+
+How do we solve this? Cookies.
+
+Cookies go into the response headers and keep track of actions.
+
+i.e. Login request has an addition which writes a cookie
+
+Cookies allow us to create a "session". Sessions are a concept that allow the website's state to remain and store information about the user/keep the state.

@@ -1,0 +1,17 @@
+# This is what we did. Try and avoid using scaffolds when you're building your controller
+
+rails new --database postgresql
+change database.yml
+rake db:create
+rails generate scaffold Test
+rake db:migrate
+rails generate migration ChangeColumns
+rake db:migrate
+rails generate model NewModel column:type
+rake db:migrate
+
+
+create controller
+add actions to controllers (remember these are just methods in your controller)
+update routes.rb
+create some views

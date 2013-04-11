@@ -1,0 +1,30 @@
+Inheritance
+
+Everything is an object
+
+There is a blueprint in ruby called object
+
+Every single object that we instanciate inherits from object
+
+CLass object defines a set of core behaviour that affects the whole ruby environment
+
+Class object
+	def to_s
+	#inherits from object
+	(i.e.) first_name + ' ' + last_name
+	end
+
+	def inspect
+	end
+
+	def object_id
+	end
+end
+
+All the above are inherited by ALL objects.
+
+All classes automatically inherit from the object class
+
+Classes that we immediately inherit from are called the SUPERCLASS.
+
+Overriding is when you rename your method to ovverride an existing oen you inherit from i.e. you create a method called to_s

@@ -1,0 +1,83 @@
+URL-uniform resource locator
+
+DNS allows a string (a domain name) to sit on top of an IP address. These are issuced by ICANN
+
+HTTP returns HTML, but can also return files/images/css/etc
+
+scheme://domain:port/path?query-string#fragment_id
+
+scheme-types of protocol
+
+http
+https (uses public and private keys)
+ftp
+file (local file)
+
+domain
+subdomains: zahid.google.com or www.google.com (where www is the subdomain)
+
+port
+localhost:127.0.0.1 is a reserved port for your own local server
+
+/etc/hosts shows the localhost details (subl /etc/hosts)
+
+ports
+80 http (default)
+443 https
+22 ssh
+
+path
+example: index.html
+
+?query-string
+?map=world&color=blue
+
+this gets passed to sinatra where in the get "/" end,
+params { map: world, color: blue}
+
+The same applies for anthing in the body of the request (i.e. email/password)
+The same applies for any ids. So /user/id/1 goes to paras [id] => 1
+
+#fragment_id
+the anchor id for a certain part of a page. If we use this we can jump to any part of one page with that fragment id.
+
+example of a link:
+
+maps.google.com:80/maps/debbie/4#initial_id
+
+
+Example of how sinatra works
+
+Browser does request --> sends GET or HTTP /path to server which gets the request
+The server (webrick locally) uses Rack to go to sinatra,, which generates the HTML and sends it back to the webrick server.
+This sends the file --> the browser in a response.
+
+NOTE
+The only way to tell the browser to do something other than an action is through a form
+When you do a POST, you can't see the data (unlike with a GET, where it's in the URL so you can bookmark it-i.e. Google search request) because it's in the BODY of the request
+
+Request
+Head
+POST /path
+HTTP [.]
+Body
+email = ""
+password=""
+
+Response
+HEAD
+
+BODY
+HTML
+
+
+As part of the HTTP protocol, each response has a code:
+404 is page not found
+2 is everything's fine
+3/300/01 is when you have a redirect
+4.. is a request error
+5.. server errors
+i.e. 500 is throwing an exception in a server
+503/4 is an overloaded server
+
+

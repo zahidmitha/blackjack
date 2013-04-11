@@ -1,0 +1,6 @@
+Mocha
+
+stub -> this is so you can make a method return a value of your choice
+
+Random.any_instance .stubs(:Rand).returns(4)
+would return 4 rather than a random number
