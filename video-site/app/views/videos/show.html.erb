@@ -1,34 +1,39 @@
+<div class="container">
 <div id="notice"><%= notice %></div>
 
 <div>
-	<strong>Title:</strong>
-	<%= @video.name %>
+	<strong><%= @video.name %></strong>
 </div>
 
 <div>
-	<strong>Video:</strong>
 	<iframe width="560" height="315" src="http://www.youtube.com/embed/<%= @video.video %>" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div>
-	<strong>Votes:</strong>
-	<%= @video.votes %>
-	<button><%= link_to 'Vote up', "/videos/#{@video.id}/add_vote", method: :put %>
-	</button>
+
+	<%= @video.votes %> <strong>votes</strong>
+	<div>
+	<%= link_to 'Vote up', "/videos/#{@video.id}/add_vote", method: :put, class: "btn vote_button" %>
+	</div>
 </div>
 
-<h3>Comments</h3>
-<% @video.comments.each do |comment| %>
-	<p>
-		<strong>Commenter</strong><br />
-		<%= comment.commenter %>
-	</p>
-	<p>
-		<strong>Comment</strong>
-		<%= comment.body %>
-	</p>
+<% if @video.comments.blank? %>
 
-	<%= link_to 'Delete comment', [comment.video, comment],:confirm => 'Are you sure?', :method => :delete %>
+	<h3>Comments</h3>
+	<% @video.comments.each do |comment| %>
+		<p>
+			<strong>Commenter</strong><br />
+			<%= comment.commenter %>
+		</p>
+		<p>
+			<strong>Comment</strong>
+			<%= comment.body %>
+		</p>
+
+		<%= link_to 'Delete comment', [comment.video, comment],:confirm => 'Are you sure?', :method => :delete %>
+	<% end %>
+
+<% else %>
 
 <% end %>
 
@@ -45,8 +50,4 @@
 		<%= f.submit %>
 <% end %>
 
-<%= link_to 'Home', home_index_path %>
-<%= link_to "View rankings", videos_path %> <br />
-
-
-
+</div>

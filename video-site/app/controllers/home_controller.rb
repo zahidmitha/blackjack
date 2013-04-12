@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
-    video = Video.all.sample
-    redirect_to video
+    @video_pair = Video.all.sample(2)
+
   end
 end

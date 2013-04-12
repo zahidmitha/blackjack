@@ -2,6 +2,8 @@ class VideosController < ApplicationController
 
   def index
     @videos = Video.all
+    @videos.sort! { |a,b| b.votes <=> a.votes}
+
 
   end
 
@@ -31,13 +33,18 @@ class VideosController < ApplicationController
     video.votes ||= 0
     video.votes += 1
     video.save
-    redirect_to video
+    redirect_to home_index_path
   end
 
   def destroy
     @video = Video.find(params[:id])
     @video.destroy
-    redirect_to videos_path
+    redirect_to videos_url
   end
+
+  # def next
+  #   @video = Video.all.sample
+  #   redirect_to @video
+  # end
 
 end
